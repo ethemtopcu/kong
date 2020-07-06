@@ -4,7 +4,10 @@
   "description": "king kong",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll --verbose --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ethemtopcu/kong/issues"
   },
-  "homepage": "https://github.com/ethemtopcu/kong#readme"
+  "homepage": "https://github.com/ethemtopcu/kong#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
 }
