@@ -1,0 +1,1 @@
+[![Coverage Status](https://coveralls.io/repos/github/ethemtopcu/kong/badge.svg?branch=master)](https://coveralls.io/github/ethemtopcu/kong?branch=master)
