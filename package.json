@@ -4,7 +4,7 @@
   "description": "king kong",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose --coverage"
+    "test": "jest --verbose --coverage"
   },
   "jest": {
     "testEnvironment": "node"
