@@ -1,0 +1,22 @@
+{
+  "name": "kong",
+  "version": "1.0.0",
+  "description": "king kong",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethemtopcu/kong.git"
+  },
+  "keywords": [
+    "kong"
+  ],
+  "author": "Ethem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethemtopcu/kong/issues"
+  },
+  "homepage": "https://github.com/ethemtopcu/kong#readme"
+}
