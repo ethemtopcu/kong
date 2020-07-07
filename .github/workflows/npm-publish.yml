@@ -1,4 +1,5 @@
-name: NPM Publish
+
+name: npm-publish
 
 on:
   release:
@@ -13,11 +14,6 @@ jobs:
         with:
           node-version: "12.x"
           registry-url: "https://registry.npmjs.org"
-          
-      - name: npm install, npm build
-        run: |
-          npm install
-          npm run build
       - name: npm publish
         run: npm publish
         env:
