@@ -1,9 +1,10 @@
 {
   "name": "kongx",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "king kong",
   "main": "index.js",
   "scripts": {
+    "build": "echo build complete!",
     "test": "jest --verbose --coverage"
   },
   "repository": {
